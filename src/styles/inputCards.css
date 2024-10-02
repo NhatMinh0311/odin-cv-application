@@ -1,0 +1,39 @@
+input {
+    width: 100%;
+    border-radius: 6px;
+    padding: 0.15rem 0.15rem;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background-color: rgb(241, 139, 55);
+    border-radius: 8px;
+    border-width: 0;
+    padding: 12px;
+    margin: 20px;
+    hr {
+        width: 80%;
+        height: 1px;
+    }
+    
+    input, 
+    button {
+        align-self: center;
+        margin-bottom: 4px;
+    }
+
+    button {
+        padding: 6px 12px;
+        border-radius: 5px;
+        border-width: 0;
+    }
+}
+
+.date-input {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 150px 150px;
+    grid-auto-flow: column;
+    column-gap: 10px;
+}

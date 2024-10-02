@@ -1,0 +1,20 @@
+:root {
+  font-size: 20px;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+input[type="text"],
+input[type="email"]
+,button {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+p {
+  margin: 4px 0;
+}
